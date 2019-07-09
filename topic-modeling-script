@@ -1,0 +1,140 @@
+### Topic Modeling for the Goethe prose and drama corpus ###
+### cf http://www.matthewjockers.net/materials/dh-2014-introduction-to-text-analysis-and-topic-modeling-with-r/ ###
+
+setwd("~/Documents/Entsagung bei Goethe/Topic Modeling")
+
+
+# Prelims
+inputDir <- "Korpus Topic Modeling"
+files.v <- dir(path = inputDir, pattern = "*\\.txt")
+chunk.size <- 1000 # number of words per chunk
+
+
+
+# Text Chunking Function
+makeFlexTextChunks <- function(inputDir, file.name, chunk.size=1000, percentage=TRUE){
+  text.file.path<-file.path(inputDir, file.name)
+  text.lines.v <- scan(text.file.path, what="character", sep="\n")
+  novel.v <- paste(text.lines.v, collapse=" ")
+  novel.lower.v <- tolower(novel.v)
+  novel.lower.l <- strsplit(novel.lower.v, "\\W")
+  novel.word.v <- unlist(novel.lower.l)
+  not.blanks.v  <-  which(novel.word.v!="")
+  novel.word.v <-  novel.word.v[not.blanks.v]
+  x <- seq_along(novel.word.v)
+  if(percentage){
+    max.length <- length(novel.word.v)/chunk.size
+    chunks.l <- split(novel.word.v, ceiling(x/max.length))
+  } else {
+    chunks.l <- split(novel.word.v, ceiling(x/chunk.size))
+    if(length(chunks.l[[length(chunks.l)]]) <=
+       length(chunks.l[[length(chunks.l)]])/2){
+      chunks.l[[length(chunks.l)-1]] <-
+        c(chunks.l[[length(chunks.l)-1]], chunks.l[[length(chunks.l)]])
+      chunks.l[[length(chunks.l)]] <- NULL
+    }
+  }
+  chunks.l <- lapply(chunks.l, paste, collapse=" ")
+  chunks.df <- do.call(rbind, chunks.l)
+  return(chunks.df)
+}
+
+# Loop for chunking each text in the corpus directory
+topic.l <- NULL
+for(i in 1:length(files.v)){
+  chunk.m <- makeFlexTextChunks(inputDir, files.v[i], chunk.size)
+  textname <- gsub("\\..*","", files.v[i])
+  segments.m <- cbind(paste(textname, segment=1:nrow(chunk.m), sep="_"), chunk.m)
+  topic.l[[textname]] <- segments.m
+}
+topic.m <- do.call(rbind, topic.l)
+
+# Convert the matrix to a data frame for mallet processing
+# Prepare for mallet
+documents <- as.data.frame(topic.m, stringsAsFactors=F)
+colnames(documents) <- c("id", "text")
+
+# Load and run Mallet
+library(rJava)
+library(mallet)
+mallet.instances <- mallet.import(documents$id, documents$text, "Stopwordlist_Goethe_Jan.csv", FALSE, token.regexp="[\\p{L}']+") # insert your own stopwordlist file here
+
+# Create a topic trainer object.
+topic.model <- MalletLDA(num.topics=60)
+topic.model$loadDocuments(mallet.instances)
+vocabulary <- topic.model$getVocabulary()
+
+# examine some of the vocabulary
+vocabulary[1:50]
+vocabulary[5000:5050]
+
+word.freqs <- mallet.word.freqs(topic.model)
+
+# examine some of the word frequencies:
+head(word.freqs)
+
+topic.model$setAlphaOptimization(40, 80)
+topic.model$train(4000)
+
+topic.words.m <- mallet.topic.words(topic.model, smoothed=TRUE, normalized=TRUE)
+
+# how big is the resulting matrix?
+dim(topic.words.m)
+
+# set the column names to make the matrix easier to read:
+colnames(topic.words.m) <- vocabulary
+
+# examine a specific topic
+topic.num <- 8 # the topic id you wish to examine
+num.top.words<-10 # the number of top words in the topic you want to examine
+
+mallet.top.words(topic.model, topic.words.m[topic.num,], num.top.words)
+
+# Visualize topics as word clouds
+# be sure you have installed the wordcloud package
+library(RColorBrewer)
+library(wordcloud)
+topic.num <- 1
+num.top.words<-100
+topic.top.words <- mallet.top.words(topic.model, topic.words.m[1,], 100)
+wordcloud(topic.top.words$words, topic.top.words$weights, c(4,.8), rot.per=0, random.order=F)
+
+num.topics<-60
+num.top.words<-25
+for(i in 1:num.topics){
+  topic.top.words <- mallet.top.words(topic.model, topic.words.m[i,], num.top.words)
+  wordcloud(topic.top.words$words, topic.top.words$weights, c(4,.8), rot.per=0, random.order=F)
+}
+
+# save all word clouds in one pdf file
+library(RColorBrewer)
+library(wordcloud)
+pdf(file="Goetheclouds4.pdf")
+num.topics<-60
+num.top.words<-25
+for(i in 1:num.topics){
+  topic.top.words <- mallet.top.words(topic.model, topic.words.m[i,], num.top.words)
+  print(wordcloud(topic.top.words$words, topic.top.words$weights, c(4,.8), rot.per=0, random.order=F))
+}
+dev.off()
+
+# topic per document
+doc.topics.m <- mallet.doc.topics(topic.model, smoothed=T, normalized=T)
+doc.topics.m # column=topics; row=documents; think about the values as percentages or proportions of the document
+dim(doc.topics.m) ## [1] 56534    60 -> the 60 Goethe texts were chunked into 56534 segments
+
+# topics in whole documents (up to now only segments)
+file.ids.v <- documents[,1] # in documents the IDs of the chunked documents are saved
+head(file.ids.v)
+file.id.l <- strsplit(file.ids.v, "_")
+file.chunk.id.l <- lapply(file.id.l, rbind)
+file.chunk.id.m <- do.call(rbind, file.chunk.id.l) # column 1: which row in doc.topics.m belongs to which document?
+head(file.chunk.id.m)
+
+# topic average for each topic in each document
+doc.topics.df <- as.data.frame(doc.topics.m) #we also need the letter values
+doc.topics.df <- cbind(file.chunk.id.m[,1], doc.topics.df)
+doc.topic.means.df <- aggregate(doc.topics.df[, 2:ncol(doc.topics.df)], list(doc.topics.df[,1]), mean)
+doc.topic.means.df # everything in one place; one row per text; 1. row = file name (called group by aggregate); further rows for the single topics
+barplot(doc.topic.means.df[, "V45"], names.arg=c(1:60)) # visualization of topic 6
+filename <- as.character(doc.topic.means.df[59, "Group.1"]) # document name of text 48 -> "1809-Wahlverwandtschaften"
