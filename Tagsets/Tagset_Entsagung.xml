@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Entsagung-Tagset</title>
+                <author>Horstmann, Jan</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>CATMA</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>empty</p>
+                <ab>
+                    <fs xml:id="CATMA_TECH_DESC">
+                        <f name="version">
+                            <string>5</string>
+                        </f>
+                    </fs>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <fsdDecl xml:id="CATMA_F8B980AA-E0D6-4E32-B27F-2257DE45BB9F" n="I. regulierende Instanz 2017-12-14T10:04:25.000+0100">
+                <fsDecl xml:id="CATMA_AE6B359C-3A97-48CD-98A5-BE08F28E8306" n="2018-01-11T15:06:40.000+0100" type="CATMA_AE6B359C-3A97-48CD-98A5-BE08F28E8306">
+                    <fsDescr>Erzähler</fsDescr>
+                    <fDecl xml:id="CATMA_1FE0D116-3A20-4AB2-88A0-C681184B42DC" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-4993796</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_511486FA-9B28-46E1-A8FF-CBEC3D4D94CF" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_6F1F8696-EBE8-4B9C-8532-9F3DD8BE3150" n="2018-01-11T15:06:58.000+0100" type="CATMA_6F1F8696-EBE8-4B9C-8532-9F3DD8BE3150">
+                    <fsDescr>Figur</fsDescr>
+                    <fDecl xml:id="CATMA_7F82C6D9-820C-42D9-A6E5-AC4976060238" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-15323683</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_20D20440-9D95-4200-8078-077A9D87FCF5" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+            <fsdDecl xml:id="CATMA_A716110E-514A-4B6C-A56D-8A027AF64E82" n="II. Modus der Regulierung 2017-12-14T10:04:31.000+0100">
+                <fsDecl xml:id="CATMA_964857F3-E0A6-4FF1-8AD7-615AA5DE1738" n="2018-01-11T15:07:08.000+0100" type="CATMA_964857F3-E0A6-4FF1-8AD7-615AA5DE1738">
+                    <fsDescr>extern motiviert: Versagung, Verbot, Gebot etc.</fsDescr>
+                    <fDecl xml:id="CATMA_7534E569-21DE-4740-ABDE-4AD6774AEC41" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-9248157</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_B01DDAC5-7611-40D9-A828-4FC3D09B8FD6" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_9139B0B8-9369-4D1E-9E29-5EBEDE6F3ABC" n="2018-01-11T15:07:19.000+0100" type="CATMA_9139B0B8-9369-4D1E-9E29-5EBEDE6F3ABC">
+                    <fsDescr>intern motiviert: Entsagung, Enthaltung, Verzicht, etc.</fsDescr>
+                    <fDecl xml:id="CATMA_347D840D-48BA-4A6E-86CD-E8073F4689D9" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-15501546</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A683178A-384F-4E15-B48B-F53E06EABFAD" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+            <fsdDecl xml:id="CATMA_FC1EF8FA-5541-4967-A120-C514963999E9" n="IV. ästhetische Indikatoren 2017-12-14T10:04:36.000+0100">
+                <fsDecl xml:id="CATMA_0AE76D60-6118-4B81-A0DA-1C38AE9969C5" n="2018-01-11T15:07:40.000+0100" type="CATMA_0AE76D60-6118-4B81-A0DA-1C38AE9969C5">
+                    <fsDescr>Wechsel der Erzählebene</fsDescr>
+                    <fDecl xml:id="CATMA_CC8094B2-F671-4F72-803B-2BF22474FC25" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-2584670</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_503114D8-1949-4526-BE97-E8E6A547B473" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_1E542FCB-BC60-4A17-B442-E1CA17406713" n="2018-01-11T15:07:56.000+0100" type="CATMA_1E542FCB-BC60-4A17-B442-E1CA17406713">
+                    <fsDescr>widersprüchliche Realisation der Gattungsnorm</fsDescr>
+                    <fDecl xml:id="CATMA_CE176D04-FC5C-43CB-A9E0-AF7D1A3C0C5B" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-1965022</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_2BC6A4A4-CE4F-4455-80F1-D6E4ECA84B16" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_5CC291C3-2618-4BF8-B4EE-C85B77AE3941" n="2017-12-14T15:22:21.000+0100" type="CATMA_5CC291C3-2618-4BF8-B4EE-C85B77AE3941">
+                    <fsDescr>Wechsel der Textsorte</fsDescr>
+                    <fDecl xml:id="CATMA_3EFA1084-63DF-48FF-B70C-A8B50273742D" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-4773224</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A3A8DBB1-1516-48A4-B102-B6A8134299B9" name="Kommentar">
+                        <vRange>
+                            <vColl>
+                                <string>Novellen Anfang</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_74353C00-6E5D-45BD-A9B7-AF7945203C7A" n="2018-01-11T15:08:11.000+0100" type="CATMA_74353C00-6E5D-45BD-A9B7-AF7945203C7A">
+                    <fsDescr>defizitäre Realisation der Gattungsnorm</fsDescr>
+                    <fDecl xml:id="CATMA_AC86BE80-A92E-4D4F-9A20-95D73E38019A" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-7915996</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_690F19DE-18B9-4C92-83B6-7835DDB6F2B8" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+            <fsdDecl xml:id="CATMA_BD71D50D-53F7-406D-B5C1-F892BEE2EAE5" n="III. Bezugsbereiche der Regulierung 2016-11-16T10:11:43.000+0100">
+                <fsDecl xml:id="CATMA_868959BD-4299-46D7-BF48-D6080F1955E2" n="2018-01-11T15:08:34.000+0100" type="CATMA_868959BD-4299-46D7-BF48-D6080F1955E2">
+                    <fsDescr>mittelbarer Bereich: Dimension der Kompensation</fsDescr>
+                    <fDecl xml:id="CATMA_B938EBB8-3CD8-4235-B612-869330FC5EF9" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-657536</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_420406B6-7A53-46AA-8F90-50CE998AAE08" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_E0E782DE-F13C-4F5E-BDD7-DD500EB3EAB5" n="2018-01-11T15:08:45.000+0100" type="CATMA_E0E782DE-F13C-4F5E-BDD7-DD500EB3EAB5">
+                    <fsDescr>unmittelbarer Bereich: Dimension des angestrebten Objekts</fsDescr>
+                    <fDecl xml:id="CATMA_BABAFDD1-8091-4EFF-8943-1F4647901B64" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-1382912</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_3A56BD19-5ECC-4D88-B811-36A53F0E2292" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab type="catma"/>
+        </body>
+    </text>
+</TEI>

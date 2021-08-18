@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ironie</title>
+                <author>Horstmann, Jan</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>CATMA</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>empty</p>
+                <ab>
+                    <fs xml:id="CATMA_TECH_DESC">
+                        <f name="version">
+                            <string>5</string>
+                        </f>
+                    </fs>
+                </ab>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <fsdDecl xml:id="CATMA_1CE1B099-C9CC-44A0-A27A-6FBA420E5584" n="objektive Ironie 2017-02-27T19:03:00.000+0100">
+                <fsDecl xml:id="CATMA_B74FD253-2A6A-447D-A3AD-E0B8924A982F" n="2018-01-11T16:52:16.000+0100" type="CATMA_B74FD253-2A6A-447D-A3AD-E0B8924A982F">
+                    <fsDescr>dramatische Ironie</fsDescr>
+                    <fDecl xml:id="CATMA_F83DB288-C655-4057-A4BA-BACF48F1F4B9" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-12089492</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_59E81348-3458-40B0-ACED-55A350C67D48" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_65ACE19D-8B98-4163-81A5-051E41792A5A" n="2018-01-11T16:52:26.000+0100" type="CATMA_65ACE19D-8B98-4163-81A5-051E41792A5A">
+                    <fsDescr>Weltironie/Ironie des Schicksals</fsDescr>
+                    <fDecl xml:id="CATMA_2F10CE5F-3DBA-4B23-96EB-88ECD11C08D2" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-14533382</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A566FB09-FD9F-4631-A63F-41C31AF4FE16" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+            <fsdDecl xml:id="CATMA_A9D623BB-47F5-4701-A513-7D82FE6DFDF0" n="textfunktionale/illokutionäre Ironie 2016-12-20T16:09:28.000+0100">
+                <fsDecl xml:id="CATMA_CEE9C0B1-DD58-43C9-93FF-DFEB03452726" n="2018-01-11T16:52:35.000+0100" type="CATMA_CEE9C0B1-DD58-43C9-93FF-DFEB03452726">
+                    <fsDescr>thematische Einstellung</fsDescr>
+                    <fDecl xml:id="CATMA_7BB78C96-2E50-4AA7-9C3B-714AE3C055AB" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-5287818</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_FB6DECDB-7124-4B28-90AB-87C772844791" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_7A9059F4-67D3-495D-BCCD-79D18EB13C20" n="2018-01-11T16:52:42.000+0100" type="CATMA_7A9059F4-67D3-495D-BCCD-79D18EB13C20">
+                    <fsDescr>gesellschaftlicher Handlungsbereich</fsDescr>
+                    <fDecl xml:id="CATMA_99F0E1DC-0183-4E87-9BDE-DDE184779AD6" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-723944</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_46A22DC6-DEF0-40EA-93B5-D7183A1A57DB" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_802EF6B5-43C5-47F6-A472-1E01CA97FEF4" n="2018-01-11T16:52:50.000+0100" type="CATMA_802EF6B5-43C5-47F6-A472-1E01CA97FEF4">
+                    <fsDescr>ironisch durch Illokutionsstruktur</fsDescr>
+                    <fDecl xml:id="CATMA_FC934AB0-80FB-4B46-98E5-997A5D398338" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-2616828</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_74EBFAA1-20F9-4CA3-B3F8-27C5B4747829" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+            <fsdDecl xml:id="CATMA_8669E7EB-C7DF-4C11-B12F-6B519256A3BB" n="rhetorische Ironie 2018-07-11T12:12:54.000+0200">
+                <fsDecl xml:id="CATMA_C8215AFC-0856-4777-8E68-26EF97EDE9F0" n="2018-01-11T16:53:41.000+0100" type="CATMA_C8215AFC-0856-4777-8E68-26EF97EDE9F0" baseTypes="CATMA_4B7F3481-FF27-4F21-AACC-A5B60DC77C0D">
+                    <fsDescr>simulatio (vortäuschen)</fsDescr>
+                    <fDecl xml:id="CATMA_FDEA5623-06A4-4942-AFB7-EDC0CCF411B6" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-1558503</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_C494624B-76B2-42C7-89BB-478D4758E6E4" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_5EFC822C-28A1-4172-BAD7-C0198F8BC4DA" n="2018-01-11T16:53:53.000+0100" type="CATMA_5EFC822C-28A1-4172-BAD7-C0198F8BC4DA" baseTypes="CATMA_476A5B9D-43FC-4D0C-B9ED-AC2D18B6CED5">
+                    <fsDescr>Antiphrase</fsDescr>
+                    <fDecl xml:id="CATMA_C03F9EA1-8B86-4550-973E-135E92532E04" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-158880</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_EA73B1FA-6A4C-4AB9-AE83-8F622BE309ED" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_2D76D85B-1287-4309-953F-B95D57FD066F" n="2018-01-11T16:53:59.000+0100" type="CATMA_2D76D85B-1287-4309-953F-B95D57FD066F" baseTypes="CATMA_476A5B9D-43FC-4D0C-B9ED-AC2D18B6CED5">
+                    <fsDescr>Parodie</fsDescr>
+                    <fDecl xml:id="CATMA_6CD6920E-129E-423B-84ED-8381E5DD8953" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-262380</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_2538413F-9617-4564-88BE-F22EF130A1C6" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_AF445E02-BF60-44D7-AE95-E0EA9CB9A25A" n="2018-01-11T16:53:16.000+0100" type="CATMA_AF445E02-BF60-44D7-AE95-E0EA9CB9A25A" baseTypes="CATMA_B0F231A5-8CDD-495C-9239-2CEEAF8864D6">
+                    <fsDescr>Erzähler</fsDescr>
+                    <fDecl xml:id="CATMA_100CB717-6147-47C1-AD66-EB15F205E243" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-12355371</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_1AB76D5C-BE65-4294-B316-8B211EDAEB11" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_D4F80919-DA85-462E-8254-43ED81EEDAFC" n="2018-01-11T16:54:05.000+0100" type="CATMA_D4F80919-DA85-462E-8254-43ED81EEDAFC" baseTypes="CATMA_476A5B9D-43FC-4D0C-B9ED-AC2D18B6CED5">
+                    <fsDescr>Persiflage</fsDescr>
+                    <fDecl xml:id="CATMA_20F8FC00-CA8D-4512-921B-E024A8E62730" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-15152031</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_950B34C8-7252-43EB-ADC6-EA64F1918137" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_3D6DBC76-5A38-4B6C-986B-09565E84052F" n="2018-01-11T16:54:10.000+0100" type="CATMA_3D6DBC76-5A38-4B6C-986B-09565E84052F" baseTypes="CATMA_476A5B9D-43FC-4D0C-B9ED-AC2D18B6CED5">
+                    <fsDescr>Relativierung</fsDescr>
+                    <fDecl xml:id="CATMA_A4E05808-1BF5-4EFD-B64E-6E34AED40719" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-7326717</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_187033CC-69F7-428A-B054-719302B51C49" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_7B214BC4-0EB1-43F0-A8FD-DE350B599934" n="2018-07-11T12:13:01.000+0200" type="CATMA_7B214BC4-0EB1-43F0-A8FD-DE350B599934" baseTypes="CATMA_476A5B9D-43FC-4D0C-B9ED-AC2D18B6CED5">
+                    <fsDescr>Ellipse</fsDescr>
+                    <fDecl xml:id="CATMA_51531994-7B78-4FA4-9348-D3415CB947E6" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-9198615</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_D727F319-3B80-44A7-A487-442030E44ED1" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_B0F231A5-8CDD-495C-9239-2CEEAF8864D6" n="2018-05-15T13:29:59.000+0200" type="CATMA_B0F231A5-8CDD-495C-9239-2CEEAF8864D6">
+                    <fsDescr>Narrative Ebene</fsDescr>
+                    <fDecl xml:id="CATMA_055C42C7-F9B0-4F68-B9AF-2D9D1DEAC9F9" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-13209715</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_37F4A476-FAD7-4224-9B01-FCD3D8BD0EB5" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_93CD1A20-EE3C-4CC5-A8EF-48DA3B395F03" n="2018-01-11T16:54:15.000+0100" type="CATMA_93CD1A20-EE3C-4CC5-A8EF-48DA3B395F03" baseTypes="CATMA_476A5B9D-43FC-4D0C-B9ED-AC2D18B6CED5">
+                    <fsDescr>Widerspruch</fsDescr>
+                    <fDecl xml:id="CATMA_AE47943B-14E5-4B8B-8991-E58FEC98961D" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-1560804</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_015CFF1B-DF21-4F5F-8BEB-823FE72F3C73" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_4B7F3481-FF27-4F21-AACC-A5B60DC77C0D" n="2018-05-15T13:28:55.000+0200" type="CATMA_4B7F3481-FF27-4F21-AACC-A5B60DC77C0D">
+                    <fsDescr>Antike Rhetorik</fsDescr>
+                    <fDecl xml:id="CATMA_634838FB-E4E0-4F94-BCEE-712436512B8C" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-8961934</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_A2D47739-C46D-4564-BDA4-18418AB97977" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_778DB836-3DDF-4708-A907-2FD51364E525" n="2018-01-11T16:54:21.000+0100" type="CATMA_778DB836-3DDF-4708-A907-2FD51364E525" baseTypes="CATMA_476A5B9D-43FC-4D0C-B9ED-AC2D18B6CED5">
+                    <fsDescr>Sarkasmus</fsDescr>
+                    <fDecl xml:id="CATMA_2BEC9128-A52C-44D9-BB5E-BC3025060C47" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-4631067</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_74342C62-9292-4D95-AE4D-9F7524B32E72" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_0F780758-CD86-4144-88E7-69AD001624EC" n="2018-01-11T16:53:23.000+0100" type="CATMA_0F780758-CD86-4144-88E7-69AD001624EC" baseTypes="CATMA_B0F231A5-8CDD-495C-9239-2CEEAF8864D6">
+                    <fsDescr>Rezipient</fsDescr>
+                    <fDecl xml:id="CATMA_ACC30FFA-FA86-4C51-95C4-364BB015E9B1" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-12078933</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_AC650354-B00B-4EB9-9179-7048E26C0371" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_74407488-6498-4540-88B4-E030E3F0A231" n="2018-01-11T16:53:29.000+0100" type="CATMA_74407488-6498-4540-88B4-E030E3F0A231" baseTypes="CATMA_B0F231A5-8CDD-495C-9239-2CEEAF8864D6">
+                    <fsDescr>(implizierter) Autor</fsDescr>
+                    <fDecl xml:id="CATMA_161EA745-EFB8-480E-9CFD-1E74F0F5681B" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-2861352</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_545DDC5E-2EF7-4FDB-9B74-6AAD4E151455" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_6EE13283-068F-45BB-B210-CFFB68B1E891" n="2018-01-11T16:53:46.000+0100" type="CATMA_6EE13283-068F-45BB-B210-CFFB68B1E891" baseTypes="CATMA_4B7F3481-FF27-4F21-AACC-A5B60DC77C0D">
+                    <fsDescr>dissimulatio (verbergen)</fsDescr>
+                    <fDecl xml:id="CATMA_66ADA498-E56C-423B-B182-DC86A07690D4" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-1773760</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_785148B3-07C4-40DE-A426-D8E36DAA4DBD" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_0A692A87-B313-4F71-813A-9A7CBA7D8B1B" n="2018-01-11T16:53:35.000+0100" type="CATMA_0A692A87-B313-4F71-813A-9A7CBA7D8B1B" baseTypes="CATMA_B0F231A5-8CDD-495C-9239-2CEEAF8864D6">
+                    <fsDescr>Figur</fsDescr>
+                    <fDecl xml:id="CATMA_DB996748-6CF8-479E-B7E4-0D86818716CC" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-661485</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_D28EAFF9-32FD-478C-B8B4-BEA6B03B339E" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_8F8F3EAA-DB43-4A4E-9EAE-FECF60FB7C40" n="2018-01-11T16:54:26.000+0100" type="CATMA_8F8F3EAA-DB43-4A4E-9EAE-FECF60FB7C40" baseTypes="CATMA_476A5B9D-43FC-4D0C-B9ED-AC2D18B6CED5">
+                    <fsDescr>Wiederholung</fsDescr>
+                    <fDecl xml:id="CATMA_BE13B18C-264D-41A1-8C0B-A2592A2535CE" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-12711727</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_97987F60-99F8-4F2C-88D7-EFB8501DB1E1" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_476A5B9D-43FC-4D0C-B9ED-AC2D18B6CED5" n="2018-05-15T13:29:25.000+0200" type="CATMA_476A5B9D-43FC-4D0C-B9ED-AC2D18B6CED5">
+                    <fsDescr>Ironiesignale/verwandte Formen</fsDescr>
+                    <fDecl xml:id="CATMA_0612D36D-FC2B-46ED-A1ED-92B93866C391" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-6167287</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_1F20F3AD-E8B7-40BC-AF22-AD215703313E" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_A397D27B-F217-491D-A3A0-C0EB1D32FA86" n="2018-01-11T16:54:32.000+0100" type="CATMA_A397D27B-F217-491D-A3A0-C0EB1D32FA86" baseTypes="CATMA_476A5B9D-43FC-4D0C-B9ED-AC2D18B6CED5">
+                    <fsDescr>Litotes</fsDescr>
+                    <fDecl xml:id="CATMA_1B2C9C45-091E-42CE-8842-7054540D00C9" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-13980935</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_405AA134-5FEB-439A-BC04-C6E6BC58283C" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_9F0846AA-E072-4077-BAD2-5A9229AB7C20" n="2018-01-11T16:54:38.000+0100" type="CATMA_9F0846AA-E072-4077-BAD2-5A9229AB7C20" baseTypes="CATMA_476A5B9D-43FC-4D0C-B9ED-AC2D18B6CED5">
+                    <fsDescr>Untertreibung/Übertreibung</fsDescr>
+                    <fDecl xml:id="CATMA_7EBFE4AE-5892-484A-9A50-C7099B51DA46" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-3790464</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_DE7EBCBD-16D9-42A8-AD70-C2FDC19220B5" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+            <fsdDecl xml:id="CATMA_A5C1F4CD-0AC8-4C5D-B7B4-9A13FB4278AF" n="romantische Ironie 2016-10-05T11:43:01.000+0200">
+                <fsDecl xml:id="CATMA_4A62E205-7611-457A-979F-BDB696E0BC1B" n="2018-01-11T16:54:45.000+0100" type="CATMA_4A62E205-7611-457A-979F-BDB696E0BC1B">
+                    <fsDescr>künstlerische Reflexion</fsDescr>
+                    <fDecl xml:id="CATMA_25EE24C8-D91A-4003-9AFF-458C201EA245" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-582456</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_61BA7BB6-B7E4-4596-B4BA-9012361A33FD" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_9FAC3040-C334-4115-B552-23BCAB5648B8" n="2018-01-11T16:54:51.000+0100" type="CATMA_9FAC3040-C334-4115-B552-23BCAB5648B8">
+                    <fsDescr>Verweis</fsDescr>
+                    <fDecl xml:id="CATMA_60A5AFEB-CE7A-4D79-8F5D-40F55ED2F416" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-11392374</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_33FA7D63-2D23-49A9-ADBA-2F9695422F3B" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+                <fsDecl xml:id="CATMA_8BB29B12-56E5-40FF-9302-9220DC58F0AC" n="2018-01-11T16:54:56.000+0100" type="CATMA_8BB29B12-56E5-40FF-9302-9220DC58F0AC">
+                    <fsDescr>poetische Reflexion</fsDescr>
+                    <fDecl xml:id="CATMA_7DA7AAE0-3102-40B6-A0EA-3E44B401F9E4" name="catma_displaycolor">
+                        <vRange>
+                            <vColl>
+                                <string>-8092399</string>
+                            </vColl>
+                        </vRange>
+                    </fDecl>
+                    <fDecl xml:id="CATMA_28AEB510-1A71-4423-BABD-884E011517BC" name="Kommentar">
+                        <vRange>
+                            <vColl/>
+                        </vRange>
+                    </fDecl>
+                </fsDecl>
+            </fsdDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <ab type="catma"/>
+        </body>
+    </text>
+</TEI>
